@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "irb-simulator"
+version = "0.1.0"
+description = "Basel/IRB-style credit risk policy simulation toolkit (proxy PD + EAD/LGD/EL)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Omotayo Owolabi"}]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "scikit-learn>=1.4"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
