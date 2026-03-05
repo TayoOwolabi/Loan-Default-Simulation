@@ -1,4 +1,4 @@
-# credit-risk-pd-policy-sim
+# credit-risk-pd-policy-simulation
 
 A GitHub-ready **Basel/IRB-style credit risk policy simulation** project.
 
